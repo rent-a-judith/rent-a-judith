@@ -1,0 +1,206 @@
+/***************************************
+GENERAL
+***************************************/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/***************************************
+NAV
+***************************************/
+
+
+nav {
+    background-color: #6674A9;
+    margin: 0;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav a, nav a:visited {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 2.5em;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+  color:#B5B3F9;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul img {
+    max-width: 40px;
+    padding: 0;
+}
+
+/***************************************
+TEXT FORMATIING
+***************************************/
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #B5B3F9;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #6674A9;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #404047;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.9em;
+    color: #6674A9;
+    margin: 0;
+}
+
+p.service_caption {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #404047;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+
+/***************************************
+SECTION 1
+***************************************/
+
+.section1 {
+    background-color: #E7F4FF;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.landing {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.landing_image {
+    display: inline-grid;
+    padding: 5%;
+}
+
+.landing_image img {
+    margin: 0 auto;
+    padding: 15% 0 0 0;
+    max-width: 90%;
+}
+
+/***************************************
+SECTION 2
+***************************************/
+
+#services {
+    background-color: white;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+#services-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.service {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/***************************************
+SECTION 3
+***************************************/
+
+#testimonials {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+#reviews {
+    background: #3DBDB6;
+    background: -webkit-linear-gradient(left, #3DBDB6, #0089CE);
+    background: -o-linear-gradient(right, #3DBDB6, #0089CE);
+    background: -moz-linear-gradient(right, #3DBDB6, #0089CE);
+    background: linear-gradient(to right, #3DBDB6, #0089CE);
+    padding: 0 0 40px 0;
+}
+
+#reviews ul {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+#reviews p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #404047;
+    font-size: 1em;
+}
+
+#reviews div {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+
+/***************************************
+FOOTER
+***************************************/
+
+
+footer {
+    background-color: #404047;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 0.8em;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}

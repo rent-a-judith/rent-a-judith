@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rent-A-Judith</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "nav") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+    
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="rent_a_judith.html"><img src="img/logo.png" alt="logo"/></a></li>
+      <li class="menu-item"><a href="#section1">Rent - a - Judith</a></li>
+      <li class="menu-item"><a href="#services">Services</a></li>
+      <li class="menu-item"><a href="#reviews">Past Client Reviews</a></li>
+    </ul>
+  </nav>
+
+  <section class="section1">
+    <div class="landing">
+      <div class="landing_text">
+        <h1>Rent-a-Judith</h1><br>
+        <p>Judith is a cooking and cleaning extroardinaire based in Pretoria. She offers domestic cleaning services for home and office; restaurant and canteen kitchen staff cooking services; and is a trained industrial coffee machine barista.</p><br>
+        <h2>Book/hire her now!</h2>
+        <h2>Call 0728075514</h2><br>
+      </div>
+      <div class="landing_image">
+        <img src="img/landing.png" alt="illustration of judith"/>
+      </div>
+	  </div>
+  </section>
+
+  <section id="services">
+    <h3>Services:</h3>
+    <div id="services-wrapper">
+      <div class="service">
+        <img src="img/barista.png" alt="coffee icon"><br>
+        <p class="service_caption">Coffee barista</p>
+      </div>
+      <div class="service">
+        <img src="img/cook.png" alt="food icon"><br>
+        <p class="service_caption">Cooking/kitchen</p>
+      </div>
+      <div class="service">
+        <img src="img/clean.png" alt="cleaning icon"><br>
+        <p class="service_caption">Cleaning</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+      <h3 id="testimonials">Past Client Reviews</h3>
+      <div>
+        <ul>
+          <li>"Judith always gave her best and kept a clean and efficient kitchen during her time at Liv." <br><br><p style="text-align: right;"><em>- Cassie, Head of Administration, Limitless Virtual"</em></p></li><br><br>
+          <li>Judith is always willing to do what it takes to get the job done. She also makes amazing cappuccinos." <br><br><p style="text-align: right;"><em>- Veronica Christou</em></p></li>
+        </ul>
+      </div>
+  </section>
+
+
+  <footer> </footer>
+
+
+</body>
+
+</html>
